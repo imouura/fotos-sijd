@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memórias Escolares</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Memórias Escolares</h1>
+            <p>Reviva os momentos inesquecíveis da nossa jornada escolar.</p>
+        </div>
+    </header>
+
+    <section class="gallery">
+        <div class="photo" onclick="openModal('foto1.jpg', 'Com meus amigos e o professor', 'Momentos especiais em sala de aula.')">
+            <img src="foto1.jpg" alt="Foto com amigos e professor">
+        </div>
+        <div class="photo" onclick="openModal('foto2.jpg', 'Eu e Rafael', 'Meu grande amigo de escola.')">
+            <img src="foto2.jpg" alt="Foto com Rafael">
+        </div>
+        <div class="photo" onclick="openModal('foto3.jpg', 'Aproveitando a natureza', 'Eu nas plantas.')">
+            <img src="foto3.jpg" alt="Eu nas plantas">
+        </div>
+        <div class="photo" onclick="openModal('foto4.jpg', 'Voltando do colégio com meu irmão', 'Cumplicidade na rotina.')">
+            <img src="foto4.jpg" alt="Na volta do colégio com meu irmão">
+        </div>
+        <div class="photo" onclick="openModal('foto5.jpg', 'Meu amigo Freitas!!', 'Sempre rindo juntos.')">
+            <img src="foto5.jpg" alt="Meu amigo Freitas!!">
+        </div>
+        <div class="photo" onclick="openModal('foto6.jpg', 'Excursão para o farol', 'Dia inesquecível perto do colégio!')">
+            <img src="foto6.jpg" alt="Excursão para o farol">
+        </div>
+        <div class="photo" onclick="openModal('foto7.jpg', 'Eu e minha amiga Ketlin', 'Saudades, ela saiu do colégio 😢.')">
+            <img src="foto7.jpg" alt="Eu e minha amiga Ketlin">
+        </div>
+        <div class="photo" onclick="openModal('foto8.jpg', 'O grupo do fundo', 'Sempre juntos nas bagunças.')">
+            <img src="foto8.jpg" alt="O grupo do fundo">
+        </div>
+        <div class="photo" onclick="openModal('foto9.jpg', 'Osvaldinho Drumdrum', 'Ele mandava bem no som!')">
+            <img src="foto9.jpg" alt="Osvaldinho Drumdrum">
+        </div>
+        <div class="photo" onclick="openModal('foto10.jpg', 'Meu amigo dormindo na sala', 'Igual a um mendigo! 😂')">
+            <img src="foto10.jpg" alt="Meu amigo dormindo igual mendigo">
+        </div>
+        <div class="photo" onclick="openModal('foto11.jpg', 'Chegamos atrasados e ficamos na capela', 'Que situação!')">
+            <img src="foto11.jpg" alt="Chegamos atrasados e ficamos na capela">
+        </div>
+        <div class="photo" onclick="openModal('foto12.jpg', 'Meu amigo tímido', 'Mas gente boa demais.')">
+            <img src="foto12.jpg" alt="Meu amigo tímido">
+        </div>
+        <div class="photo" onclick="openModal('foto13.jpg', 'Meu amigo romântico', 'Sempre com aquele ar de romance.')">
+            <img src="foto13.jpg" alt="Esse mesmo amigo romântico">
+        </div>
+        <div class="photo" onclick="openModal('foto14.jpg', 'Eu bravo', '😡 Quando a turma bagunçava, eu ficava assim!')">
+            <img src="foto14.jpg" alt="Eu bravo 😡">
+        </div>
+        <div class="photo" onclick="openModal('foto15.jpg', 'Foto com minha amiga', 'Boas lembranças juntas.')">
+            <img src="foto15.jpg" alt="Foto com minha amiga">
+        </div>
+        <div class="photo" onclick="openModal('foto16.jpg', 'Não lembro quantos anos tínhamos', 'Mas foi divertido.')">
+            <img src="foto16.jpg" alt="Não lembro quantos anos tínhamos">
+        </div>
+        <div class="photo" onclick="openModal('foto17.jpg', 'Mendigo de novo!', 'Dormindo em qualquer canto! 😂')">
+            <img src="foto17.jpg" alt="Mendigo de novo! 😂">
+        </div>
+        <div class="photo" onclick="openModal('foto18.jpg', 'A turma dos afeminados', 'Sempre confiantes e felizes.')">
+            <img src="foto18.jpg" alt="Afeminados">
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="caption"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Memórias Escolares - Todos os direitos reservados a isadora!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
